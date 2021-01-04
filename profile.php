@@ -24,19 +24,45 @@
 
     <!---Navbar -->
     <?php require_once("nav.php"); ?>
-
-    <!---Item Card -->
-    <div class="jumbotron text-center">
-  <h1>My Items</h1>
-
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
-                    data-target="#requestModal">    Add Item
-                </button>
+    
+    <div class="w3-sidebar w3-bar-block" style="width:25%">
+    <div class="container">
+    <div class="card" style="width:250px">
+    <img class="card-img-top" src="images/uploaded/avatarVP.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title"><h3>vaspap1790<br></h3>
+      <p class="card-text">Vasilis Papadimitrakopoulos<br>vaspap1790@gmail.com<br>
+      <h3>About Me</h3>Lorem ipsum dolor sit amet.</p>
+      
+                           
+                        <hr>
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                        <hr>
+                        <a href="#" class="btn btn-primary">Add New Item</a>
+   </div>
+</div> 
+</div>
 </div>
   
-<div class="container">
+    <!---Item Card -->
+ 
+
+
+  
+<div class="container" style="margin-left:25%">
   <div class="row">
-    <div class="col-sm-4">
+     <div class="col-sm-4">
     <img class="card-img-top" src="images/uploaded/book2.jpg" alt="" width="260" height="195">
             <div class="card-body">        
                 <div><small>Uploaded in 01.01.2021</small></div>
@@ -210,10 +236,11 @@
                     Delete
                 </button>
                 </div>
+                
     </div>
   </div>
 </div>
-    
+</div>
 
 
     
