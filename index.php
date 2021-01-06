@@ -29,13 +29,13 @@
     <!--- Start of SearchBar -->
     <div class="search-wrapper">
         <div>
-            <h2>Find whatever the weather</h2>
+            <h1><b>Find whatever the weather!</h1>
         </div>
         <div>
             <form id="searchForm" action="index.php" method="post" class="form-inline active-pink-4">
                 <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
                     aria-label="Search" name="search">
-                    <button type="submit" name="submitSearch" id="submitSearch" class="btn btn-primary">
+                    <button type="submit" name="submitSearch" id="submitSearch" class="btn peach-gradient">
                         <i class="fas fa-search" aria-hidden="true"></i>
                     </button>
             </form>

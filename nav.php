@@ -1,13 +1,13 @@
-<nav id="nav-placeholder" class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top ">
-  <a class="navbar-brand" href="#">Xchange</a>
+<nav id="nav-placeholder" class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top "style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
+  <a class="navbar-brand" href="#">Xchange</a><link rel="shortcuticon" href="images/icons/favicon.ico" />
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">  
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home
+        <a class="nav-link" href="index.php" >Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
@@ -15,7 +15,7 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">Watchlist
         </a>
-        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+        <div class="dropdown-menu dropdown-default" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);" aria-labelledby="navbarDropdownMenuLink-333">
           <a class="dropdown-item" href="#">Item 1</a>
           <a class="dropdown-item" href="#">Item 2</a>
           <a class="dropdown-item" href="#">Item 3</a>
@@ -25,7 +25,7 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">Categories
         </a>
-        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+        <div class="dropdown-menu dropdown-default"style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);" aria-labelledby="navbarDropdownMenuLink-333">
 
         <?php
           //Fetchinng all the categories from category table
@@ -51,7 +51,7 @@
         <?php  
           if(confirm_Login()){  
           ?>  
-            <span style="color:white;">Welcome <?php echo $_SESSION['username']; ?> <span>
+            <span style="color:white;">  Welcome <?php echo $_SESSION['username']; ?> <span>
           <?php } ?>
       </div>
 

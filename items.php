@@ -35,17 +35,17 @@
         <!-- Sidebar -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Filters</h3>
+                <h3>Items</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
+                <p></p>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">All</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Pages</a>
+                        class="dropdown-toggle">Category</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
                             <a href="#">Page 1</a>
@@ -70,11 +70,11 @@
             <div class="pl-3">
                 <h3>
                     <span class="btn-group">
-                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <button type="button" id="sidebarCollapse" class="btn peach-gradient">
                             <i class="fas fa-align-left"></i>
                         </button>
                     </span>
-                    Category Items
+                     Items
                 </h3>
             </div>
 
@@ -440,7 +440,7 @@
     </div>
 
     <!--- Footer -->
-    <?php require_once("footer.php"); ?>
+    
 
     <!--- Script Source Files -->
     <script src="js/jquery.min.js"></script>
