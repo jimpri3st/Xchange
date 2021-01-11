@@ -13,12 +13,14 @@
     <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" type="text/css" href="css/forms.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/board.css">
+    
 </head>
 
 <body>
@@ -27,21 +29,21 @@
     <?php require_once("nav.php"); ?>
 
     <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-        <div class="container">
+        <div class="container" style="margin-top: 100px;">
 
             <h2>Frequently Asked Questions </h2>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                        <h3 class="panel-title">
+                    <div class="panel-heading p-3 mb-3" style="background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); border-radius:100px;" role="tab" id="heading0">
+                        <h5 class="panel-title" >
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                 What are the benefits of exchange?
                             </a>
-                        </h3>
+                        </h5>
                     </div>
                     <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                        <div class="panel-body px-3 mb-4">
+                        <div class="panel-body px-3 mb-4" >
                             <p>With xchange, you and your visitors will benefit from a finely-tuned technology stack
                                 that drives the highest levels of site performance, speed and engagement - and
                                 contributes more to your bottom line. Our users fell in love
@@ -60,7 +62,7 @@
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                    <div class="panel-heading p-3 mb-3"style="background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); border-radius:100px;" role="tab" id="heading1">
                         <h3 class="panel-title">
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapse1" aria-expanded="true" aria-controls="collapse1">
@@ -76,7 +78,7 @@
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                    <div class="panel-heading p-3 mb-3"style="background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); border-radius:100px;" role="tab" id="heading2">
                         <h3 class="panel-title">
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapse2" aria-expanded="true" aria-controls="collapse2">
@@ -93,7 +95,7 @@
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                    <div class="panel-heading p-3 mb-3"style="background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); border-radius:100px;" role="tab" id="heading3">
                         <h3 class="panel-title">
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapse3" aria-expanded="true" aria-controls="collapse3">

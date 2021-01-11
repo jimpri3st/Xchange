@@ -42,18 +42,83 @@
 </head>
 
 <body>
+    <style>
+  
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
+    }
+    .container{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        background-color: #deebdd;
+        background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+        box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        background-image: URL(images/uploaded/pagenotfound.png); 
+       
+    }
+    .text {
+        font-family: futura;
+        font-size:10rem;
+        text-align: left;
+        margin-bottom:40px;
+        
+    }
+    .content{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 100px;
+        padding: 0 100px;
+        
+    }
+    .content h5 { 
+        padding: 10px;
+         
+         }
+    .content h1 {
+        font-family: futura;
+        margin-bottom: 26px;
+        font-weight: bolder;
+        display: block;
+        font-size; 1.5rem;
+        letter-spacing: 1px;
+        
+    }
+    
+    button{
+        margin-top: 20px;
+        padding: 16px 26px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+    
+    </style>
     <!---Navbar -->
     <?php require_once("nav.php"); ?>
 
     <br><br><br><br><br><br>
     
     <!-- Container  -->
-    <div class="container-fluid">
-        <h1><?php echo $error_title; ?>/</h1>
-        <h5><?php echo $error_message; ?>/</h5>
+    <div class="container">
+    <h2 class="text">Oops!<h2>
+    <div class="content">
+        <h1><?php echo $error_title; ?></h1>
+        <h5><?php echo $error_message; ?></h5>
+        <button><a href="index.php">Go to Home</button>
     </div>
-
+    </div>
+    
 
     <!-- Modals -->
     <?php require_once("includes/modals.php"); ?>
